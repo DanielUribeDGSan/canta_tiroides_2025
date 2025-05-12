@@ -11,7 +11,7 @@ export const Register = () => {
 
   return (
     <>
-      <AddMeta title="Banco Azteca" description="" />
+      <AddMeta title="Canta Tiroides 2025" description="" />
       {/* <RegisterArea /> */}
     </>
   );
