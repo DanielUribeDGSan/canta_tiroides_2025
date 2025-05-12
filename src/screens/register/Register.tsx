@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { RegisterArea } from "./RegisterArea";
+// import { RegisterArea } from "./RegisterArea";
 import { useTitlePage } from "../../hooks/useTitlePage";
 import { AddMeta } from "../../components/ui/meta/AddMeta";
 
@@ -12,7 +12,7 @@ export const Register = () => {
   return (
     <>
       <AddMeta title="Banco Azteca" description="" />
-      <RegisterArea />
+      {/* <RegisterArea /> */}
     </>
   );
 };
