@@ -1,0 +1,25 @@
+@import "../../../assets/scss/utils/index.scss";
+
+.information-card {
+  padding: 1.5rem;
+  article {
+    background-color: #f6f5f5;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    p {
+      color: var(--tp-theme-9);
+      font-weight: 600;
+    }
+
+    .red {
+      color: var(--tp-theme-8);
+    }
+    .green-strong {
+      color: var(--tp-theme-1);
+    }
+    .green {
+      color: var(--tp-theme-4);
+    }
+  }
+}

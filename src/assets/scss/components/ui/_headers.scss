@@ -1,0 +1,68 @@
+@import '../../utils/index.scss';
+.content-header {
+  position: absolute;
+  background-color: var(--tp-common-white);
+  z-index: 999;
+  top: 0;
+  left: 0;
+  padding: 0rem;
+  width: 250px;
+  @media (max-width: '1000px') and (orientation: landscape) {
+    width: 200px;
+  }
+  & .btn-header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    & img:nth-child(2n + 1) {
+      width: 130px;
+      margin-right: 10px;
+      padding: 0.7rem 0rem 0.7rem 0.5rem;
+      height: 85px;
+      @media #{$md,$sm,$xs} {
+        height: 58px;
+      }
+    }
+  }
+}
+
+.header-items {
+  & .separator {
+    width: 100%;
+    border-bottom: 5px solid var(--tp-common-dpink);
+  }
+  & .live {
+    margin-top: 1rem;
+    & img {
+      width: 55px;
+    }
+    & p {
+      padding: 0rem;
+      margin: 0rem;
+      display: inline-flex;
+      font-size: 0.9rem;
+      margin-left: 12px;
+    }
+  }
+  & .footer {
+    flex-direction: column;
+    & button {
+      border: 0px;
+      color: var(--tp-theme-2);
+      border-bottom: 1px solid var(--tp-theme-2);
+      margin-top: 0.5rem;
+    }
+    & img {
+      margin-top: 1rem;
+    }
+    & p {
+      margin-top: 1rem;
+      line-height: 12px;
+      font-size: 0.6rem;
+      text-align: center;
+      padding: 0rem;
+    }
+  }
+}

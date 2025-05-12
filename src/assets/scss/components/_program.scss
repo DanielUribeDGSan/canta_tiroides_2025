@@ -1,0 +1,51 @@
+@import '../utils/index.scss';
+.program-area {
+  overflow-y: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  & .program-content {
+    margin: 0 auto;
+    position: relative;
+  }
+  & .img-bg-program {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  & .btn-title {
+    position: absolute;
+    height: 34%;
+    width: 18%;
+    color: black;
+    left: 20%;
+    bottom: 49%;
+    cursor: pointer;
+  }
+  & .btn-5-julio {
+    position: absolute;
+    height: 8%;
+    width: 12%;
+    color: black;
+    left: 23%;
+    bottom: 38%;
+    cursor: pointer;
+    & img {
+      width: 100%;
+    }
+  }
+  & .btn-6-julio {
+    & img {
+      width: 100%;
+    }
+    position: absolute;
+    height: 8%;
+    width: 12%;
+    color: black;
+    left: 23%;
+    bottom: 28%;
+    cursor: pointer;
+  }
+}

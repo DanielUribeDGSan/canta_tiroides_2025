@@ -1,0 +1,33 @@
+:root {
+  --gris: #fafafa;
+  --primary: #af2727;
+  --overlay: #000;
+  --opacity: 0;
+  --fondoImage: url("../assets/img/logos/Fondo_Blank_1.png");
+  --fondoChat: url("../assets/img/logos/Fondo_Blank_1.png");
+  /* --fondoImage: none;
+  --fondoChat: none; */
+  --text-color: #000;
+  --fondo: #ffffff;
+  --fondo-chat: #006341;
+  --grisNav: #a2a2a2;
+  --blanco: #fff;
+  --borderBoton: #43b02a;
+  --colorBoton: #43b02a;
+  --titleUser: #43b02a;
+  --nameUser: #43b02a;
+  --bienvenida: #43b02a;
+  --scrollColor: #fff;
+  --scroll2Color: #fff;
+  --userChatAdmin: #43b02a;
+  --userColorChatAdmin: #fff;
+  --fondoChatAdmin: #43b02a;
+  --userChat: #43b02a;
+  --userColorChat: #fff;
+}
+/* 006341
+af2727
+75787b
+43b02a
+e63422
+53565a */

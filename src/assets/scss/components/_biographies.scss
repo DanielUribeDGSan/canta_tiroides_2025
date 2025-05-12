@@ -1,0 +1,57 @@
+@import '../utils/index.scss';
+.biographies-area {
+  & .img-biographies {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    @media #{$md,$sm,$xs} {
+      width: 40%;
+    }
+  }
+  & .InfoDR {
+    padding: 0rem 1rem;
+    & h1 {
+      padding: 0rem 10% 0rem 0rem;
+      color: var(--tp-theme-1);
+      margin-bottom: 1.5rem;
+    }
+    & p {
+      display: inline-flex;
+      background-color: var(--tp-theme-1);
+      padding: 0.3rem 1rem;
+      margin-bottom: 1.5rem;
+    }
+    & .formation {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      & img {
+        width: 2.3rem;
+        height: 2.3rem;
+        margin-right: 1rem;
+      }
+      & p {
+        display: flex;
+        background-color: var(--tp-common-white);
+        color: var(--tp-theme-1);
+        margin: 0rem;
+        padding: 0rem;
+      }
+    }
+    & .info {
+      background-color: var(--tp-theme-1);
+      height: 40vh;
+      overflow-y: auto;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      @media #{$md,$sm,$xs} {
+        margin-bottom: 1rem;
+        height: auto;
+      }
+      & p {
+        display: block;
+        text-align: justify;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

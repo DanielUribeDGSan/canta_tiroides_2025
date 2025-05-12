@@ -1,0 +1,34 @@
+@import '../utils/index.scss';
+
+.section__login {
+  height: 100vh;
+  & .container-login {
+    padding: 4rem;
+    width: 100%;
+    @media #{$mw-xl} {
+      padding: 7rem;
+    }
+    @media #{$md,$sm,$xs} {
+      padding: 2rem;
+    }
+    & .content-title {
+      & h2 {
+        font-size: 3.5rem;
+        color: var(--tp-theme-1);
+        font-weight: 800;
+        @media #{$sm,$xs} {
+          font-size: 3rem;
+        }
+      }
+      & p {
+        color: var(--tp-common-gray);
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        @media #{$sm,$xs} {
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,311 @@
+@import '../../utils/index.scss';
+.modal-photo-booth {
+  @media #{$md,$sm,$xs} {
+    margin-top: 0rem;
+    max-width: 80%;
+  }
+  & .close {
+    position: absolute;
+    z-index: 99;
+    right: 20px;
+    top: 20px;
+    color: var(--tp-common-black);
+    padding: 0;
+    margin: 0;
+    & svg {
+      font-size: 3rem;
+      @media #{$md,$sm,$xs} {
+        font-size: 2rem;
+      }
+    }
+  }
+  & .modal-content {
+    background-color: transparent;
+    border: none;
+    // position: initial;
+    & .modal-body {
+      // position: initial;
+      & .img-galery {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 0.5rem;
+      }
+    }
+  }
+}
+
+.modal-reset-password {
+  & .close {
+    position: absolute;
+    z-index: 99;
+    right: 0px;
+    top: -40px;
+    color: var(--tp-common-white);
+    padding: 0;
+    margin: 0;
+    & svg {
+      font-size: 3rem;
+      @media #{$md,$sm,$xs} {
+        font-size: 2rem;
+      }
+    }
+  }
+  & .modal-content {
+    background-color: transparent;
+    border: none;
+    // position: initial;
+    & .modal-body {
+      // position: initial;
+      & .reset-content {
+        background-color: var(--tp-common-white);
+        padding: 2rem;
+        border-radius: 0.5rem;
+        @media #{$sm,$xs} {
+          padding: 1rem;
+        }
+        & input {
+          width: 100%;
+          border: 1px solid var(--tp-common-border-input);
+          padding: 0.8rem;
+          border-radius: 8px;
+          font-size: 1rem;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}
+
+.modal-stand {
+  @media #{$md,$sm,$xs} {
+    margin-top: 0rem;
+    max-width: 80%;
+  }
+  & .close {
+    position: absolute;
+    z-index: 99;
+    right: 10px;
+    top: 10px;
+    color: var(--tp-common-white);
+    padding: 0;
+    margin: 0;
+    & svg {
+      font-size: 3rem;
+      @media #{$md,$sm,$xs} {
+        font-size: 2rem;
+      }
+    }
+  }
+  & .modal-content {
+    background-color: transparent;
+    border: none;
+    & .modal-body {
+      & h2 {
+        color: var(--tp-common-dpink);
+        text-transform: uppercase;
+        font-weight: bold;
+        @media #{$md,$sm,$xs} {
+          font-size: 28px;
+        }
+      }
+      & span {
+        color: var(--tp-common-dpink);
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-weight: bold;
+        @media #{$md,$sm,$xs} {
+          font-size: 1.3rem;
+        }
+      }
+      & .table-responsive {
+        overflow-x: hidden !important;
+      }
+      & table {
+        border-collapse: separate;
+        border-spacing: 0px 10px;
+        & tbody {
+          & tr:first-child {
+            background-color: var(--tp-common-orange);
+          }
+          & tr {
+            background-color: var(--tp-theme-1);
+            color: var(--tp-common-white);
+            border: 0px;
+          }
+          & td:nth-child(2n + 1) {
+            width: 7%;
+          }
+          & td:nth-child(2n + 2) {
+            width: 73%;
+          }
+          & td:nth-child(2n + 3) {
+            text-align: end;
+            width: 20%;
+          }
+          & td {
+            font-size: 1rem;
+            border: 0px;
+          }
+        }
+      }
+      & hr {
+        color: var(--tp-common-black);
+        border-top: 2px solid;
+        opacity: 1;
+      }
+      .user-score {
+        & tr:first-child {
+          background-color: var(--tp-common-dpink);
+        }
+        & span {
+          font-weight: 200;
+          @media #{$md,$sm,$xs} {
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.modal-program {
+  & .modal-dialog {
+    margin-right: 3%;
+  }
+  & .modal-content {
+    background-color: var(--tp-common-white);
+    position: initial;
+    & .modal-header {
+      border: none;
+    }
+    & .modal-body {
+      padding: 0rem;
+      position: initial;
+      & .modal-area-img {
+        overflow-y: hidden;
+        position: relative;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        & .modal-content-img {
+          margin: 0 auto;
+          position: relative;
+        }
+        & .img-modal {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+        }
+        & .btn-1 {
+          position: absolute;
+          height: 9.5%;
+          width: 95%;
+          left: 4%;
+          bottom: 82%;
+          cursor: pointer;
+        }
+        & .btn-2 {
+          position: absolute;
+          height: 9.5%;
+          width: 95%;
+          left: 4%;
+          bottom: 73%;
+          cursor: pointer;
+        }
+        & .btn-3 {
+          position: absolute;
+          height: 7.5%;
+          width: 95%;
+          left: 4%;
+          bottom: 65%;
+          cursor: pointer;
+        }
+        & .btn-4 {
+          position: absolute;
+          height: 8.5%;
+          width: 95%;
+          left: 4%;
+          bottom: 56%;
+          cursor: pointer;
+        }
+        & .btn-5 {
+          position: absolute;
+          height: 8.5%;
+          width: 95%;
+          left: 4%;
+          bottom: 29%;
+          cursor: pointer;
+        }
+        & .btn-6 {
+          position: absolute;
+          height: 8.5%;
+          width: 95%;
+          left: 4%;
+          bottom: 20%;
+          cursor: pointer;
+        }
+        & .btn-7 {
+          position: absolute;
+          height: 9.5%;
+          width: 95%;
+          left: 4%;
+          bottom: 8%;
+          cursor: pointer;
+        }
+        & .btn2-1 {
+          position: absolute;
+          height: 9.5%;
+          width: 95%;
+          left: 4%;
+          bottom: 82%;
+          cursor: pointer;
+        }
+        & .btn2-2 {
+          position: absolute;
+          height: 9.5%;
+          width: 95%;
+          left: 4%;
+          bottom: 73%;
+          cursor: pointer;
+        }
+        & .btn2-3 {
+          position: absolute;
+          height: 7.5%;
+          width: 95%;
+          left: 4%;
+          bottom: 65%;
+          cursor: pointer;
+        }
+        & .btn2-4 {
+          position: absolute;
+          height: 8.5%;
+          width: 95%;
+          left: 4%;
+          bottom: 56%;
+          cursor: pointer;
+        }
+        & .btn2-5 {
+          position: absolute;
+          height: 13.5%;
+          width: 95%;
+          left: 4%;
+          bottom: 22%;
+          cursor: pointer;
+        }
+        & .btn2-6 {
+          position: absolute;
+          height: 9.5%;
+          width: 95%;
+          left: 4%;
+          bottom: 12%;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.modal-backdrop.show {
+  opacity: 0.5;
+}

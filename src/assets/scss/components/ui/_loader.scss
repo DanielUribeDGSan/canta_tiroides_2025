@@ -1,0 +1,19 @@
+@import '../../utils/index.scss';
+.loader {
+  position: absolute;
+  background-color: #000000a1;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: column;
+  & img {
+    width: 15%;
+    margin-bottom: 4rem;
+    @media #{$md,$sm,$xs} {
+      width: 20%;
+      margin-bottom: 2rem;
+    }
+  }
+}

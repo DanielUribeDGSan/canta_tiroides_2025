@@ -1,0 +1,14 @@
+// font url
+
+//$font-url: 'https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet';
+$font-url: 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet';
+
+// font family
+$font-family: (
+  ff: (
+    body: "'Montserrat', sans-serif",
+    heading: "'Montserrat', sans-serif",
+    p: "'Montserrat', sans-serif",
+    fontawesome: 'Font Awesome 5 Pro',
+  ),
+);

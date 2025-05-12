@@ -1,0 +1,68 @@
+@import '../utils/index.scss';
+.section-auditorium {
+  & .img-person {
+    position: absolute;
+    top: 46%;
+    left: 33%;
+    width: 14%;
+    height: auto;
+    object-fit: cover;
+  }
+  & .img-live {
+    position: absolute;
+    top: 48%;
+    left: 51%;
+    width: 6%;
+    height: auto;
+    object-fit: cover;
+  }
+  & .name {
+    position: absolute;
+    color: var(--tp-common-orange-red);
+    top: 54%;
+    left: 51%;
+    width: 49%;
+    font-size: 2vw;
+    line-height: 2vw;
+    padding: 0;
+    margin: 0;
+    // overflow: hidden;
+    // text-overflow: ellipsis;
+    // white-space: nowrap;
+  }
+  & .lastname {
+    position: absolute;
+    color: var(--tp-theme-1);
+    top: 58%;
+    left: 51%;
+    width: 49%;
+    font-size: 2vw;
+    line-height: 2vw;
+    padding: 0;
+    margin: 0;
+  }
+  & .title {
+    position: absolute;
+    color: var(--tp-common-white);
+    top: 64%;
+    left: 51%;
+    width: 19%;
+    height: 11%;
+    overflow: auto;
+    font-size: 2vw;
+    line-height: 2vw;
+    padding: 0;
+    margin: 0;
+  }
+  & .button-live {
+    position: absolute;
+    top: 76%;
+    left: 51%;
+    width: 8%;
+    height: auto;
+    position: absolute;
+    & img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+@import '../utils/index.scss';
+
+.section-lobby {
+  & .market {
+    position: absolute;
+    width: 17%;
+    height: 35%;
+    right: 0;
+    bottom: 10%;
+    cursor: pointer;
+  }
+  & .information {
+    position: absolute;
+    width: 23%;
+    height: 42%;
+    left: 0;
+    bottom: 18%;
+    cursor: pointer;
+  }
+  & .auditorium {
+    position: absolute;
+    width: 23%;
+    height: 23%;
+    left: 49%;
+    bottom: 25%;
+    transform: translateX(-49%);
+    cursor: pointer;
+  }
+  & .bibliography {
+    position: absolute;
+    width: 6%;
+    height: 15%;
+    left: 65%;
+    bottom: 20%;
+    cursor: pointer;
+  }
+}

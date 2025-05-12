@@ -1,0 +1,26 @@
+@import '../../utils/index.scss';
+.drawer-cookies {
+  padding: 1rem;
+  & img {
+    width: 50%;
+  }
+  & h2,
+  p {
+    color: var(--tp-common-black);
+  }
+  & h2 {
+    font-size: 1.5rem;
+  }
+  & p {
+    font-size: 1rem;
+  }
+  & .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    & button {
+      margin-bottom: 1rem;
+    }
+  }
+}

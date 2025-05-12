@@ -1,0 +1,114 @@
+@import '../utils/index.scss';
+.section__user {
+  padding: 1rem;
+  .name {
+    color: var(--tp-common-orange);
+    text-align: end;
+    font-size: 3.5rem;
+    padding-top: 1.5rem;
+    margin: 0;
+    @media #{$md,$sm,$xs} {
+      font-size: 2.2rem;
+    }
+  }
+  .lastname {
+    color: var(--tp-theme-1);
+    text-align: end;
+    font-size: 3.5rem;
+    padding-top: 2.5rem;
+    margin: 0;
+    @media #{$md,$sm,$xs} {
+      padding-top: 1.2rem;
+      font-size: 2.2rem;
+    }
+  }
+  .clave {
+    color: var(--tp-theme-1);
+    text-align: end;
+    font-size: 2.3rem;
+    padding-top: 2.5rem;
+    margin: 0;
+    @media #{$md,$sm,$xs} {
+      padding-top: 1.2rem;
+      font-size: 1.8rem;
+    }
+    & span {
+      color: var(--tp-common-orange);
+    }
+  }
+  .chars {
+    p {
+      font-size: 2rem;
+      color: var(--tp-theme-1);
+      text-align: center;
+      @media #{$md,$sm,$xs} {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  .constancia-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    @media #{$md,$sm,$xs} {
+      font-size: 1rem;
+    }
+    & svg {
+      margin-right: 0.2rem;
+    }
+  }
+  .imagen-btn {
+    font-size: 1.4rem;
+    @media #{$md,$sm,$xs} {
+      font-size: 1rem;
+    }
+  }
+}
+
+.image-label {
+  cursor: pointer;
+}
+
+.selected-image {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.input-file {
+  display: none;
+}
+
+.container-photo-user {
+  overflow-y: hidden;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  & .video-img-photo-user {
+    margin: 0 auto;
+    position: relative;
+    & .img-galery {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    & .profile-btn {
+      position: absolute;
+      width: 62%;
+      height: 60%;
+      top: 28%;
+      right: 25%;
+      object-fit: contain;
+      border-radius: 5%;
+    }
+    & .video-content {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

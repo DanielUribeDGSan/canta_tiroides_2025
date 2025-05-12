@@ -1,0 +1,132 @@
+@import '../utils/index.scss';
+.form-remove-img {
+  .col-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 1rem;
+  }
+  .image-label {
+    cursor: pointer;
+    border: 0px;
+    background-color: var(--tp-common-white);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  .selected-image {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  .input-file {
+    display: none;
+  }
+  span {
+    color: var(--tp-theme-1);
+    text-transform: inherit;
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+}
+
+.container-photo {
+  overflow-y: hidden;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  & .video-img-photo {
+    margin: 0 auto;
+    position: relative;
+    & .img-galery {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .img-nutrition {
+      position: absolute;
+      left: 16%;
+      top: 2%;
+      width: 27%;
+      height: 90%;
+      object-fit: cover;
+    }
+    .share {
+      position: absolute;
+      left: 35.4%;
+      top: 53%;
+      width: auto;
+      height: auto;
+      font-size: 2vw;
+      object-fit: cover;
+      color: var(--tp-theme-1);
+      transform: rotate(90deg);
+    }
+    & .btn-1 {
+      position: absolute;
+      bottom: 3%;
+      right: 34.5%;
+      width: 11.5%;
+      height: 38%;
+    }
+    & .btn-2 {
+      position: absolute;
+      bottom: 3%;
+      right: 20%;
+      width: 11.5%;
+      height: 38%;
+    }
+    & .video-content {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.button-generate {
+  background-color: var(--tp-theme-1);
+  position: absolute;
+  right: 19%;
+  top: 21%;
+  padding: 1vw 1vw;
+  border-radius: 0.5rem;
+  font-size: 2vw;
+}
+
+.img-nutrition {
+  position: absolute;
+  top: 36%;
+  right: 15.5%;
+  height: 60%;
+  width: 17%;
+  object-fit: fill;
+  border-radius: 0.5vw;
+}
+
+.btn-share {
+  background-color: var(--tp-theme-2);
+  color: var(--tp-common-white);
+  position: absolute;
+  right: 4%;
+  top: 59%;
+  padding: 1vw 1vw;
+  border-radius: 0.5rem;
+  font-size: 1.5vw;
+}
+
+.content-share {
+  position: absolute;
+  right: 4%;
+  top: 59%;
+  padding: 1vw 1vw;
+  border-radius: 0.5rem;
+  font-size: 1.5vw;
+}

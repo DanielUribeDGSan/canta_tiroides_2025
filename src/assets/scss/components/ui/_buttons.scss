@@ -1,0 +1,71 @@
+@import "../../utils/index.scss";
+.btn-primary-lg {
+  background-color: var(--tp-theme-1);
+  color: var(--tp-common-white);
+  padding: 0.7rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  min-width: 150px;
+  text-align: center;
+}
+
+.btn-secondary-lg {
+  background-color: var(--tp-theme-7);
+  color: var(--tp-theme-2);
+  padding: 0.7rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  min-width: 150px;
+  text-align: center;
+}
+
+.btn-primary-md {
+  background-color: var(--tp-theme-1);
+  color: var(--tp-common-white);
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  min-width: 150px;
+  text-align: center;
+}
+
+.btn-secondary-sm {
+  background-color: var(--tp-theme-7);
+  color: var(--tp-theme-2);
+  padding: 0.4rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  min-width: 150px;
+  text-align: center;
+}
+
+.btn-profile {
+  background-color: var(--tp-theme-8);
+  color: var(--tp-common-white);
+  padding: 0.3rem 0.1rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  min-width: 110px;
+  text-align: center;
+}
+
+.btn-secondary-md {
+  background-color: var(--tp-theme-2);
+  color: var(--tp-theme-1);
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  min-width: 150px;
+  text-align: center;
+}
+
+.btn-primary-border-sm {
+  background-color: var(--tp-theme-7);
+  color: var(--tp-theme-1);
+  border: 1px solid var(--tp-theme-1);
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  min-width: 150px;
+  text-align: center;
+}

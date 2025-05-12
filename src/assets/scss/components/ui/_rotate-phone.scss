@@ -1,0 +1,13 @@
+@import '../../utils/index.scss';
+.rotate-horizontal-phone {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: #00000048;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: column;
+}
