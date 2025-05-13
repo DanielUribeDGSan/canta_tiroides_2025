@@ -36,7 +36,7 @@
 ---------------------------------*/
 
 body {
-  background-color: var(--tp-theme-white);
+  background-color: var(--tp-theme-1);
   font-family: var(--tp-ff-body);
   font-size: 14px;
   font-weight: 400;
@@ -493,5 +493,44 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   padding-top: 2rem;
   @media #{$sm,$xs} {
     padding-top: 0rem;
+  }
+}
+
+.Mui-error {
+  color: var(--tp-common-white) !important;
+}
+
+input[type="email"] {
+  background-color: transparent !important;
+  color: var(--tp-common-white) !important;
+  &::placeholder {
+    color: var(--tp-common-white) !important;
+  }
+}
+
+.logo-banner {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+  z-index: 99999999;
+  width: 20%;
+}
+.music-banner {
+  position: absolute;
+  bottom: 2%;
+  left: 44%;
+  z-index: 99999999;
+  width: 15%;
+  @media (max-width: 991px) {
+    top: 40%;
+    left: 54%;
+  }
+  @media (max-width: 768px) {
+    top: 44%;
+    left: 64%;
+  }
+  @media (max-width: 700px) {
+    top: 40%;
+    left: 64%;
   }
 }

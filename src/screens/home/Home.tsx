@@ -7,13 +7,13 @@ import "./home.scss";
 export const Home = () => {
   const { setPageTitle } = useTitlePage();
   useEffect(() => {
-    setPageTitle("Banco Azteca");
+    setPageTitle("Canta Tiroides 2025");
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
     <>
-      <AddMeta title="Banco Azteca" description="" />
+      <AddMeta title="Canta Tiroides 2025" description="" />
       <HomeArea />
     </>
   );

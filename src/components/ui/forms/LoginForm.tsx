@@ -16,10 +16,10 @@ import Swal from "sweetalert2";
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#006341",
+      main: "#fccc07",
     },
     secondary: {
-      main: "#006341",
+      main: "#fccc07",
     },
   },
 });
@@ -87,7 +87,7 @@ export const LoginForm = () => {
       >
         <div className="mb-30">
           <div className="row mx-0 mb-15 p-0 w-100">
-            <div className="col-12">
+            {/* <div className="col-12">
               <p
                 className="h4 fw-bold text-justify mb-30"
                 style={{ textAlign: "justify" }}
@@ -96,12 +96,12 @@ export const LoginForm = () => {
                 con Chetna Gala Sinha, una de las empresarias sociales más
                 influyentes del mundo de las últimas dos décadas.
               </p>
-            </div>
+            </div> */}
             <div className="col-12 mb-10 d-flex align-items-center justify-content-center">
               <span
                 className="label-title-lg "
                 style={{
-                  backgroundColor: "var(--tp-theme-4)",
+                  backgroundColor: "var(--tp-theme-2)",
                   color: "var(--tp-common-white)",
                   fontWeight: "bold",
                 }}
@@ -122,6 +122,7 @@ export const LoginForm = () => {
                 type="email"
                 error={touched.email && Boolean(errors.email)}
                 helperText={touched.email && errors.email}
+                sx={{ color: "#fff" }}
               />
             </div>
 

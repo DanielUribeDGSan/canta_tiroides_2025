@@ -1,28 +1,31 @@
 :root {
   --gris: #fafafa;
-  --primary: #af2727;
+  --primary: #e92d8b;
+  --secondary: #552f92;
+  --tertiary: #00c0cf;
+  --cuaternary: #fccc07;
   --overlay: #000;
   --opacity: 0;
-  --fondoImage: url("../assets/img/logos/Fondo_Blank_1.png");
-  --fondoChat: url("../assets/img/logos/Fondo_Blank_1.png");
-  /* --fondoImage: none;
-  --fondoChat: none; */
+  /* --fondoImage: url("../assets/img/logos/munieca.webp"); */
+  --fondoChat: url("../assets/img/logos/munieca.webp");
+  --fondoImage: none;
+  /*--fondoChat: none; */
   --text-color: #000;
-  --fondo: #ffffff;
-  --fondo-chat: #006341;
+  --fondo: #552f92;
+  --fondo-chat: #e92d8b;
   --grisNav: #a2a2a2;
   --blanco: #fff;
-  --borderBoton: #43b02a;
-  --colorBoton: #43b02a;
-  --titleUser: #43b02a;
-  --nameUser: #43b02a;
-  --bienvenida: #43b02a;
+  --borderBoton: #552f92;
+  --colorBoton: #552f92;
+  --titleUser: #552f92;
+  --nameUser: #552f92;
+  --bienvenida: #552f92;
   --scrollColor: #fff;
   --scroll2Color: #fff;
-  --userChatAdmin: #43b02a;
+  --userChatAdmin: #552f92;
   --userColorChatAdmin: #fff;
-  --fondoChatAdmin: #43b02a;
-  --userChat: #43b02a;
+  --fondoChatAdmin: #552f92;
+  --userChat: #552f92;
   --userColorChat: #fff;
 }
 /* 006341

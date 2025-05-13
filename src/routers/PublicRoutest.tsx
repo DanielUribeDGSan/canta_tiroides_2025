@@ -8,7 +8,7 @@ import { Login } from "../screens/login/Login";
 export const PublicRoutes = () => {
   return (
     <Routes>
-      <Route path="/" element={<Register />} />
+      <Route path="/" element={<Login />} />
       <Route path="/registro" element={<Register />} />
       <Route path="/iniciar-sesion" element={<Login />} />
       {/*

@@ -6,13 +6,15 @@ import { AddMeta } from "../../components/ui/meta/AddMeta";
 export const Login = () => {
   const { setPageTitle } = useTitlePage();
   useEffect(() => {
-    setPageTitle("Banco Azteca");
+    setPageTitle("Canta Tiroides 2025");
   }, []);
 
   return (
     <>
-      <AddMeta title="Banco Azteca" description="" />
+      <div className="bubbles b-top" />
+      <AddMeta title="Canta Tiroides 2025" description="" />
       <LoginArea />
+      <div className="bubbles b-bottom" />
     </>
   );
 };
