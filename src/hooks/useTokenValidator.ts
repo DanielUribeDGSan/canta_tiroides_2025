@@ -2,8 +2,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { sign_out } from "../redux/features/auth-slice";
 import danoneApi from "../api/danoneApi";
-import { User, UserLogin } from "../interfaces/auth";
-import { RootState } from "../redux/root-reducer";
+import { User } from "../interfaces/auth";
 
 interface Config {
   headers: object;
