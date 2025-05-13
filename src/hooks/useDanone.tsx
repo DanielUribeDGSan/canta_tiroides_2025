@@ -140,11 +140,11 @@ export const useDanone = () => {
 
   const login = async (body: FormValuesLogin) => {
     try {
-      const { data } = await danoneApi.post("/iniciar-sesion", body, config);
+      const { data } = await danoneApi.post("/login", body, config);
       const resp: ResponseLogin = data;
 
       if (resp.res || resp.user) {
-        const user = data?.user;
+        const user = data?.login;
 
         if (!accessLogin) {
           Swal.fire({

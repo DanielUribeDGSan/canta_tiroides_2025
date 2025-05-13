@@ -20,7 +20,7 @@ export const LiveArea = () => {
           <iframe
             className="responsive-iframe"
             allowFullScreen
-            src={`https://mastertalkbancoazteca.com/players/index.html?user=${userData.fullName}&email=${userData?.email}`}
+            src={`https://canta-tiroides-2025.netlify.app/players/index.html?user=${userData.fullName}&email=${userData?.email}`}
           ></iframe>
         )}
       </div>
