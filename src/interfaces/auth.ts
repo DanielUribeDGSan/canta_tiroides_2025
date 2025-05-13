@@ -4,6 +4,7 @@ export interface User {
   post: string;
   email: string;
   phone: string;
+  token: string;
 }
 
 export interface UserLogin {

@@ -104,6 +104,7 @@ export const useDanone = () => {
           post: user?.cargo,
           email: user?.email,
           phone: user?.telefono,
+          token: "",
         };
 
         dispatch(add_user(userStore));
@@ -145,6 +146,7 @@ export const useDanone = () => {
 
       if (resp.res || resp.user) {
         const user = data?.login;
+        const token = data?.token;
 
         if (!accessLogin) {
           Swal.fire({
@@ -160,6 +162,7 @@ export const useDanone = () => {
             post: user?.cargo,
             email: user?.email,
             phone: user?.telefono,
+            token: token,
           };
 
           dispatch(add_user(userStore));
