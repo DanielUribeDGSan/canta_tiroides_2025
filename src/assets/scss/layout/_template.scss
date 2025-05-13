@@ -534,3 +534,7 @@ input[type="email"] {
     left: 64%;
   }
 }
+
+.Toastify__toast-container {
+  z-index: 99999999;
+}

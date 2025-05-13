@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { sign_out } from "../redux/features/auth-slice";
 import danoneApi from "../api/danoneApi";
 import { User } from "../interfaces/auth";
+import { toast } from "react-toastify";
 
 interface Config {
   headers: object;
@@ -38,11 +39,16 @@ export const useTokenValidator = () => {
         if (data?.res === false) {
           console.warn("Token inválido, cerrando sesión...");
           dispatch(sign_out());
+          toast.warning(`Alguien inició sesión en otro dispositivo`, {
+            position: "top-left",
+            autoClose: 5000,
+          });
         }
       } catch (error) {
         console.error("Error validando token:", error);
       }
-    }, 5 * 60 * 1000); // Cada 5 minutos
+    }, 1000); // Cada 5 minutos
+    // }, 5 * 60 * 1000); // Cada 5 minutos
 
     return () => clearInterval(interval);
   }, [userData?.token, dispatch]);
