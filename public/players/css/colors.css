@@ -17,15 +17,15 @@
   --blanco: #fff;
   --borderBoton: #552f92;
   --colorBoton: #552f92;
-  --titleUser: #552f92;
-  --nameUser: #552f92;
-  --bienvenida: #552f92;
+  --titleUser: #fff;
+  --nameUser: #fff;
+  --bienvenida: #fff;
   --scrollColor: #fff;
   --scroll2Color: #fff;
-  --userChatAdmin: #552f92;
+  --userChatAdmin: #fff;
   --userColorChatAdmin: #fff;
   --fondoChatAdmin: #552f92;
-  --userChat: #552f92;
+  --userChat: #fff;
   --userColorChat: #fff;
 }
 /* 006341
